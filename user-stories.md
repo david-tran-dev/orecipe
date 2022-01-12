@@ -14,7 +14,7 @@ Fiche récap : https://github.com/O-clock-Alumni/fiches-recap/blob/master/gestio
 
 | visiteur | Je veux pouvoir avoir sur la page d'accueil un edito qui change toutes les semaines 
 | visiteur | Je veux pouvoir accéder à la liste des ingrédients d'une recette depuis la page accueil| afin de réaliser celle-ci dans ma cuisine |
-| visiteur | Je veux pouvoir accéder à la liste de 5 recettes les plus récentes depuis la page accueil | afin de réaliser celle-ci dans ma cuisine |
+| visiteur | Je veux pouvoir accéder à la liste de 5 recettes les plus récentes depuis la page accueil | afin de réaliser celle-ci dans ma cuisine | 
 | visiteur | Je veux pouvoir accéder à la liste de 5 recettes les mieux notées | afin de réaliser celle-ci dans ma cuisine |
 | visiteur | Je veux pouvoir aller a la page des contacts depuis la page accueil 
 | visiteur | Je veux pouvoir aller a la page des mentions légales depuis la page d'accueil 
