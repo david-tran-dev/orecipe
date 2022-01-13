@@ -3,12 +3,19 @@ const tl= gsap.timeline();
 const app= {
 	init: () => {
 
-		let menuToggleElement= document.querySelector('.header .toggle')
-		let bodyElement= document.querySelector('body');
-		
-		menuToggleElement.addEventListener('click', () => {
+		const openMenuElement= document.querySelector('.header .toggle')
+		const bodyElement= document.querySelector('body');
+		const closeElement = document.querySelector('.header .close');
+
+		openMenuElement.addEventListener('click', () => {
+			bodyElement.classList.toggle('toggleCliked');
+		});
+
+		closeElement.addEventListener('click', () => {
 			bodyElement.classList.toggle('toggleCliked');
 		})
+
+
 
 		tl.from('.header', {
 			duration: 1.25,

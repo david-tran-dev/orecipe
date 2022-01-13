@@ -67,6 +67,10 @@ html {
 	font-size: 0.8rem;
 }
 
+.header__menu .close {
+	display: none;
+}
+
 .header__text {
 	width: 80%;
 }
@@ -157,12 +161,16 @@ html {
 	padding-bottom: 0.5rem;
 }
 
+.footer {
+	background-color: var(--color3);
+
+}
+
 .footer-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--color3);
 	color: var(--color1);
 	padding: 2rem 0;
 }
@@ -194,12 +202,17 @@ html {
 	}
 
 	.toggleCliked .open {
-		display: none;
+		opacity: 0;
+		transition: opacity 0.5s linear;
 	}
 
 	.toggleCliked .close {
 		display: block;
 		color: var(--color1);
+		position: absolute;
+		top: 1rem;
+		right: 2rem;
+		font-size: 2rem;
 	}
 
 	.header__menu {
@@ -211,6 +224,7 @@ html {
 		top: 0;
 		left: 0; 
 		transform: translateX(-100%);
+		transition: transform 0.5s;
 		flex-direction: column;
 		justify-content: space-around;
 		
@@ -232,7 +246,8 @@ html {
 		border-radius: 50%;
 		transition: background-color 1s linear;
 	}
-
+	
+	
 	.header__text_middle p{
 		font-size: 3rem;
 	
