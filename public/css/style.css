@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color1: #fff;
+	--color2: #ff3627;
+	--color3: #181848; 
+
+	--font1: 'Abril Fatface', cursive;
+	--font2: 'Roboto', sans-serif;
+}
+
+.header {
+	background: url('../img/background.jpg')  no-repeat center/cover ;
+	height: 100vh;
+}
+
+.overlay {
+	background-color: rgb(255,255,255,0.5);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--color3);
+}
+
+.logo {
+	position: absolute;
+	top: 2rem;
+	left: 1rem;
+}
+
+.logo img {
+	max-width: 100px;
+}
+
+.header__menu {
+	position: absolute;
+	top: 2.75rem;
+	left: 50%;
+	transform: translateX(-50%);
+	list-style: none;
+	display: flex;
+	width: 550px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__menu li a {
+	color: var(--color3);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 0.8rem;
+}
+
+.header__text {
+	width: 80%;
+}
+
+.header__text__top {
+	display: flex;
+	align-items: center;
+	margin-top: 10rem;
+} 
+
+.header__text__top .sep {
+	width: 120px;
+	height: 2px;
+	background: var(--color3);
+}
+
+.header__text__top h1 {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.header__text_middle p{
+	font-weight: 400;
+	font-family: var(--font1);
+	font-size: 5rem;
+	margin: 0 0 2rem;
+
+}
+
+.header__text__bottom p {
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* Content */
+
+.content {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 3rem 1rem 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.edito-container {
+	width: 75%;
+	margin-right: 2rem;
+
+}
+
+.content .separator {
+	 width: 120px;
+	 height: 5px;
+	 background-color: var(--color2);
+ }
+
+.content h2 {
+	font-family: var(--font1);
+	font-size: 3rem;
+	margin: 1rem 0;
+}
+
+.recent-recipe-list {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	list
+}
+
+.recent-recipe-list h2 {
+	font-family: var(--font1);
+	font-size: 2rem;
+}
+
+.recent-recipe-list__content {
+	list-style: none;
+	padding-left: 0;
+}
+
+.recent-recipe-list__content li {
+	padding-bottom: 0.5rem;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color3);
+	color: var(--color1);
+	padding: 2rem 0;
+}
+
+.footer a {
+	color: var(--color1);
+}
+
+
+
+
+
